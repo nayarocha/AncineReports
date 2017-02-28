@@ -1,0 +1,20 @@
+{
+  "cols": [
+        {"id":"","label":"Filme","pattern":"","type":"string"},
+        {"id":"","label":"Público","pattern":"","type":"number"}
+      ],
+  "rows": [
+        {"c":[{"v":"Moana - Um Mar de Aventuras","f":null},{"v":5013182,"f":null}]},
+        {"c":[{"v":"Minha mãe é uma peça 2","f":null},{"v":4961943,"f":null}]},
+        {"c":[{"v":"Cinquenta Tons Mais Escuros","f":null},{"v":2251439,"f":null}]},
+        {"c":[{"v":"Assassin's Creed","f":null},{"v":2049659,"f":null}]},
+        {"c":[{"v":"xXx - Reativado","f":null},{"v":1291048,"f":null}]},
+        {"c":[{"v":"Passageiros (2017)","f":null},{"v":1229.792,"f":null}]},
+        {"c":[{"v":"O Chamado 3","f":null},{"v":1228830,"f":null}]},
+        {"c":[{"v":"La La Land - Cantando estações","f":null},{"v":1165061,"f":null}]},
+        {"c":[{"v":"Resident Evil 6 - O Capítulo Final","f":null},{"v":1156949,"f":null}]},
+        {"c":[{"v":"Sing - Quem canta seus males espanta","f":null},{"v":706393,"f":null}]}
+      ]
+}
+
+

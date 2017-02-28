@@ -1,0 +1,20 @@
+{
+  "cols": [
+        {"id":"","label":"Público filmes estrangeiros","pattern":"","type":"string"},
+        {"id":"","label":"Público filmes brasileiros","pattern":"","type":"string"},
+        {"id":"","label":"Ano","pattern":"","type":"number"}
+        
+      ],
+  "rows": [
+        {"c":[{"v":"Minha mãe é uma peça","f":null},{"v": 4961943,"f":null}]},
+        {"c":[{"v":"Eu fico loko","f":null},{"v":558550,"f":null}]},
+        {"c":[{"v":"Os Penetras 2 - Quem dá mais?","f":null},{"v":393531,"f":null}]},
+        {"c":[{"v":"TOC - Transtornada Obsessiva Compulsiva","f":null},{"v":229807,"f":null}]},
+        {"c":[{"v":"Os Saltimbancos Trapalhões - Rumo a Hollywood","f":null},{"v":95110,"f":null}]},
+        {"c":[{"v":"O Vendedor de Sonhos","f":null},{"v":30508,"f":null}]},
+        {"c":[{"v":"Elis","f":null},{"v":22688,"f":null}]},
+        {"c":[{"v":"Axé: Canto do Povo de Algum Lugar","f":null},{"v":12985,"f":null}]},
+        {"c":[{"v":"Redemoinho","f":null},{"v":6201,"f":null}]},
+        {"c":[{"v":"A cidade onde envelheço","f":null},{"v":3562,"f":null}]}
+      ]
+}
