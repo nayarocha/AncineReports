@@ -4,7 +4,8 @@ google.charts.setOnLoadCallback(rendabilheteria);
 google.charts.setOnLoadCallback(drawChartGenero);
 google.charts.setOnLoadCallback(drawSeriesChart);
  google.charts.setOnLoadCallback(drawRegionsMap);
-
+ google.charts.setOnLoadCallback(rankingEmpresasExibidoras);
+ google.charts.setOnLoadCallback(rankingEmpresasDistribuidoras)
 
   function bilheteria() {
         var data = google.visualization.arrayToDataTable([
@@ -63,9 +64,7 @@ google.charts.setOnLoadCallback(drawSeriesChart);
           ['2014', 4, 36, 74],
           ['2015', 0, 50, 79]
         ]);
-        var csv = google.visualization.dataTableToCsv(data);
-        console.log(csv);
-
+    
         var options = {
           chart: {
             title: 'Filmes produzidos no Brasil por gênero',
@@ -122,19 +121,19 @@ google.charts.setOnLoadCallback(drawSeriesChart);
 
 
       function drawRegionsMap() {
-
+        // Quantidade de títulos lançados por país de origem (2009-2015)
         var data = google.visualization.arrayToDataTable([
-          ['País de produção', 'Quantidade de filmes lançados'],
-          ['United States', 146],
+          ['País de produção', 'Quant de filmes lançados'],
+          ['United States', 134],
           ['Brazil', 129],
-          ['France', 45],
-          
+          ['France', 46],
+          ['RU', 23],
           ['Germany', 8],
-          
-        
-          ['Canada', 3],
-          
-          ['RU', 10]
+          ['argentina', 4],
+          ['italy', 3],
+          ['spain', 4],
+          ['Canada', 1],
+          ['japan', 6]
         ]);
 
         var options = {};
@@ -143,3 +142,66 @@ google.charts.setOnLoadCallback(drawSeriesChart);
 
         chart.draw(data, options);
       }
+
+
+  function rankingEmpresasExibidoras() {
+        var data = google.visualization.arrayToDataTable([
+          ['Empresa', 'Total de salas'],
+          ['cinemark', 592],
+          ['cinepolis',341],
+          ['GSR',186],
+          ['Araujo',138],
+          ['Cinesystem',135],
+          ['UCI',109],
+          ['Moviecom',104],
+          ['Arcoplex',76],
+          ['Cineflix',74],
+          ['Cineart',69],
+          ['UCI/GSR',62],
+          ['SERCLA',61],
+          ['Espaço',56],
+          ['CenterPlex',54],
+          ['Play', 53],
+          ['Lumiere',48],
+          ['Cinespaço',38],
+          ['Multicine',38]
+        ]);
+
+        var options = {
+          //title: 'My Daily Activities',
+          pieHole: 0.4,
+          height:500,
+          is3D: true,
+          height:500,
+          width: 900,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('rankingEmpresasExibidoras'));
+        chart.draw(data, options);
+      }
+
+
+      function rankingEmpresasDistribuidoras() {
+            //Ranking das distribuidoras por quantidade de títulos lançados (2009-2015)
+            var data = google.visualization.arrayToDataTable([
+            ['Distribuidora', '2012', '2013', '2014', '2015'],
+            ['Imovision',  34,      37,         29,             43],
+            ['Imagem',  29,      30,        29,             13],
+            ['Paris',  31,      32,        26,             27],
+            ['Sony',  19,      14,        13,             14],
+            ['Fox',  15,      15,         19,             26]
+          ]);
+
+          var options = {
+            //title : 'Monthly Coffee Production by Country',
+            //vAxis: {title: 'Cups'},
+            //hAxis: {title: 'Month'},
+            seriesType: 'bars',
+            series: {5: {type: 'line'}},
+             height:500,
+            width: 900,
+          };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('rankingEmpresasDistribuidoras'));
+        chart.draw(data, options);
+    }

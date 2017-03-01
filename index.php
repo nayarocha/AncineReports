@@ -18,6 +18,14 @@
   <script src="js/charts.js"></script>
   <script src="js/charts2.js"></script>
 
+  <script>
+    $(document).ready(function(){
+     
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+    });
+        
+  </script>
+
   
  
 </head>
@@ -35,6 +43,7 @@
                 <li class="tab col s3"><a style="color:white" href="#test1" class="teste">Ranking de filmes</a></li>
                 <li class="tab col s3"><a  style="color:white" class="active" href="#test2">Bilheteria</a></li>
                 <li class="tab col s3"><a  style="color:white" href="#test3">Produções</a></li>
+              
             </ul>
         </div>
         

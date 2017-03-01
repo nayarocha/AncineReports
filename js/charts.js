@@ -7,7 +7,8 @@ google.charts.load('current', {'packages':['table']});
   google.charts.setOnLoadCallback(drawTable);
   google.charts.setOnLoadCallback(drawTableNacionais);
   google.charts.setOnLoadCallback(drawChartNacionais);
-
+  google.charts.setOnLoadCallback(bilheteriaPortugal);
+  google.charts.setOnLoadCallback(bilheteriaFrança);
 
       
     function drawChart() {
@@ -78,3 +79,51 @@ google.charts.load('current', {'packages':['table']});
 
 
   
+       function bilheteriaPortugal() {
+          var data = google.visualization.arrayToDataTable([
+            ['Título', 'Publico acumulado'],
+            ['Tropa de Elite 2', 52298],
+            ['José e Pilar', 27236],
+            ['Tabu',23571],
+            ['Ensaio Sobre a Cegueira', 16737],
+            ['Capitães da Areia', 11691]
+          ]);
+
+          var options = {
+            chart: {
+              height:500,
+              width: 900,
+            pieHole: 0.4,
+            }
+          };
+
+          var chart = new google.visualization.PieChart(document.getElementById('bilheteriaPortugal'));
+
+          chart.draw(data, options);
+      }
+
+
+      function bilheteriaFrança() {
+          var data = google.visualization.arrayToDataTable([
+            ['Título', 'Publico acumulado'],
+            ['Na estrada - On the Road', 374996],
+            ['Que Horas Ela Volta?', 160944],
+            ['Trash', 124753],
+            ['O Menino e o Mundo',74600],
+            ['Linha De Passe', 67.167]
+          
+          ]);
+
+          var options = {
+            chart: {
+            
+             height:500,
+            width: 900,
+           pieHole: 0.4,
+            }
+          };
+
+          var chart = new google.visualization.PieChart(document.getElementById('bilheteriaFrança'));
+
+          chart.draw(data, options);
+      }

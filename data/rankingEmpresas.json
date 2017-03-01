@@ -1,0 +1,56 @@
+//Distribuição de salas entre os grupos exibidores
+//Os três grupos exibidores com maior número de salas no Brasil concentram
+//37,2% do total do país.
+//21. Ranking das empresas exibidoras por quantidade de salas (2015) 
+
+{
+  "cols": [
+        {"id":"","label":"Circuito exibidor","pattern":"","type":"string"},
+        {"id":"","label":"Complexos","pattern":"","type":"number"},
+        {"id":"","label":"Total de salas","pattern":"","type":"number"}
+        
+      ],
+  "rows": [
+        {"c":[{"v":"cinemark","f":null},{"v": 78,"f":null},{"v": 592,"f":null}]},
+        {"c":[{"v":"cinépolis","f":null},{"v":44,"f":null},{"v": 341,"f":null}]},
+        {"c":[{"v":"GSR","f":null},{"v":33,"f":null},{"v": 186,"f":null}]},
+        {"c":[{"v":"Araujo","f":null},{"v":27,"f":null},{"v": 138,"f":null}]},
+        {"c":[{"v":"Cinesystem","f":null},{"v":24,"f":null},{"v": 135,"f":null}]},
+        {"c":[{"v":"UCI","f":null},{"v":13,"f":null},{"v": 109,"f":null}]},
+        {"c":[{"v":"Moviecom","f":null},{"v":21,"f":null},{"v": 104,"f":null}]},
+        {"c":[{"v":"Arcoplex","f":null},{"v":24,"f":null},{"v": 76,"f":null}]},
+        {"c":[{"v":"Cineflix","f":null},{"v":15,"f":null},{"v": 74,"f":null}]},
+        {"c":[{"v":"Cineart","f":null},{"v":12,"f":null},{"v": 69,"f":null}]},
+        {"c":[{"v":"UCI/GSR","f":null},{"v":8,"f":null},{"v": 62,"f":null}]},
+        {"c":[{"v":"SERCLA","f":null},{"v":14,"f":null},{"v": 61,"f":null}]},
+        {"c":[{"v":"Espaço","f":null},{"v":8,"f":null},{"v": 56,"f":null}]},
+        {"c":[{"v":"CenterPlex","f":null},{"v":14,"f":null},{"v": 54,"f":null}]},      
+        {"c":[{"v":"Play","f":null},{"v":9,"f":null},{"v": 53,"f":null}]},
+        {"c":[{"v":"Lumiere","f":null},{"v":12,"f":null},{"v": 48,"f":null}]},
+        {"c":[{"v":"Cinespaço","f":null},{"v":8,"f":null},{"v": 38,"f":null}]},
+        {"c":[{"v":"Multicine","f":null},{"v":10,"f":null},{"v": 38,"f":null}]}
+      ]
+}
+
+
+
+
+  ['Empresa', 'Complexos', 'Total de salas'],
+          ['cinemark',78, 592],
+          ['cinepolis', 44,341],
+          ['GSR', 33,186],
+          ['Araujo', 27, 138],
+          ['Cinesystem', 24,135],
+          ['UCI', 13,109],
+          ['Moviecom', 21,104],
+          ['Arcoplex', 24, 76],
+          ['Cineflix', 15,74],
+          ['Cineart', 12, 69],
+          ['UCI/GSR', 8,62],
+          ['SERCLA', 14, 61],
+          ['Espaço', 8, 56],
+          ['CenterPlex', 14, 54],
+          ['Play', 9,  53],
+          ['Lumiere', 12,48],
+          ['Cinespaço', 8, 38],
+          ['Multicine', 10,  38],
