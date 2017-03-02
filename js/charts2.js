@@ -168,10 +168,8 @@ google.charts.setOnLoadCallback(drawSeriesChart);
         ]);
 
         var options = {
-          //title: 'My Daily Activities',
           pieHole: 0.4,
           height:500,
-          is3D: true,
           height:500,
           width: 900,
         };
