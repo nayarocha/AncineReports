@@ -34,23 +34,3 @@
 
 
 
-
-  ['Empresa', 'Complexos', 'Total de salas'],
-          ['cinemark',78, 592],
-          ['cinepolis', 44,341],
-          ['GSR', 33,186],
-          ['Araujo', 27, 138],
-          ['Cinesystem', 24,135],
-          ['UCI', 13,109],
-          ['Moviecom', 21,104],
-          ['Arcoplex', 24, 76],
-          ['Cineflix', 15,74],
-          ['Cineart', 12, 69],
-          ['UCI/GSR', 8,62],
-          ['SERCLA', 14, 61],
-          ['Espaço', 8, 56],
-          ['CenterPlex', 14, 54],
-          ['Play', 9,  53],
-          ['Lumiere', 12,48],
-          ['Cinespaço', 8, 38],
-          ['Multicine', 10,  38],

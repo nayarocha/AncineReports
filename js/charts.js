@@ -1,8 +1,6 @@
- // Load the Visualization API and the piechart package.
 google.charts.load('current', {'packages':['table','corechart','bar']});
 google.charts.load('current', {'packages':['table']});
       
-    // Set a callback to run when the Google Visualization API is loaded.
   google.charts.setOnLoadCallback(drawChart);  
   google.charts.setOnLoadCallback(drawTable);
   google.charts.setOnLoadCallback(drawTableNacionais);
@@ -18,11 +16,9 @@ google.charts.load('current', {'packages':['table']});
           async: false
           }).responseText;
           
-      // Create our data table out of JSON data loaded from server.
+      
       var data = new google.visualization.DataTable(jsonData);
 
-      
-      // Instantiate and draw our chart, passing in some options.
       var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
       chart.draw(data, {width: 400, height: 240});
     }
@@ -47,7 +43,7 @@ google.charts.load('current', {'packages':['table']});
 
        function drawChartNacionais() {
         var jsonData = $.ajax({
-            url: "http://reports.linkest.dev/project/data/rankingNacional.json",
+            url: "http://reports.ancine.com/project/data/rankingNacional.json",
             dataType: "json",
             async: false
             }).responseText;
@@ -64,7 +60,7 @@ google.charts.load('current', {'packages':['table']});
 
      function drawTableNacionais() {
         var jsonData = $.ajax({
-          url: 'http://reports.linkest.dev/project/data/rankingNacional.json',
+          url: 'http://reports.ancine.com/project/data/rankingNacional.json',
           dataType: "json",
           async: false
           }).responseText;
@@ -93,7 +89,7 @@ google.charts.load('current', {'packages':['table']});
             chart: {
               height:500,
               width: 900,
-            pieHole: 0.4,
+              pieHole: 0.4,
             }
           };
 

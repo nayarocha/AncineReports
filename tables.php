@@ -12,6 +12,7 @@
     </div>  
 
     <div class="divider"></div>
+    
     <div class="row">
          <h5  style="text-align:center">Ranking nacional - 2017</h5>
         <div class="col s6">
@@ -24,7 +25,6 @@
     </div> 
    
      
-
       <div class="row">
         <div class="col s12 m6">
             <h5  style="text-align:center">5 títulos brasileiros de maior bilheteria em Portugal(2009-2015)  </h5>
@@ -39,11 +39,7 @@
               <div id= "bilheteriaFrança" style="width: 100%; height: 100%;"></div>  
             </div>
         </div>
-    </div>
-
-    
-        
-
+    </div>     
 </div>
           
                            
@@ -52,8 +48,6 @@
 
 <!--Bilheteria-->
 <div id="test2" class="col s12">
-  
-
     <div class="row">
         <div class="col s12 m6">
             <h5  style="text-align:center">   Público de filmes brasileiros X estrangeiros  </h5>
@@ -91,7 +85,6 @@
     
         
         
-
 <div id="test3" class="col s12">
     <div class="row">
         <div class="col s12 m6">

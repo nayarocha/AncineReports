@@ -6,7 +6,7 @@ google.charts.setOnLoadCallback(drawSeriesChart);
  google.charts.setOnLoadCallback(drawRegionsMap);
  google.charts.setOnLoadCallback(rankingEmpresasExibidoras);
  google.charts.setOnLoadCallback(rankingEmpresasDistribuidoras)
-
+ 
   function bilheteria() {
         var data = google.visualization.arrayToDataTable([
           ['Ano', 'Público filmes brasileiros', 'Público filmes estrangeiros', 'Preço médio do ingresso'],
